@@ -1,13 +1,16 @@
 ##MVC
 #Model
-### Operação aritimética   
+### Operação aritimética
+### main
 
 #View
 ### impressão do resultado
+### mostrar_menu
 
 #Controller
 ### input - entrada do usuário
 ### print - sáida do resultado
+### obter_numeros
 
 def mostrar_menu():
     print("\nCalculadora")

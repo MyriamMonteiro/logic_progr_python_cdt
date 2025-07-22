@@ -1,5 +1,6 @@
 ##MVC
 #Model
+ <<<<<<< main
 ### vai conter a lógica de cálculo # da calculadora.
 
 #View
@@ -8,6 +9,20 @@
 #Controller
 ### vai receber as entradas do # usuário e interagir com o modelo.
 
+=======
+
+### Operação aritimética
+### main
+
+#View
+### impressão do resultado
+### mostrar_menu
+
+#Controller
+### input - entrada do usuário
+### print - sáida do resultado
+### obter_numeros
+ >>>>>>> main
 
 def mostrar_menu():
     print("\n---Calculadora---")
@@ -28,6 +43,8 @@ def obter_numeros():
     
 def main():
     while True:
+
+ <<<<<<< main
         mostrar_menu()
         opcao = input("Escolha uma opção: ")
         if opcao == "1":
@@ -46,3 +63,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+=======
+        mostrar-menu()
+        opcao = input
+ >>>>>>> main

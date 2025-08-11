@@ -1,0 +1,26 @@
+import json
+
+frutas = {
+    "frutas": [
+    {
+        "fruta1":"maçã",
+        "preco":2.34,
+    }
+    {
+        "fruta2":"pera",
+        "preco":3.35,
+    }
+    {
+        "fruta3":"banana",
+        "preco":1.23,
+    }
+    {
+        "fruta4":"laranja",
+        "preco":4.56,
+    }
+]
+
+}
+
+with open('frutas.json', 'w', encoding='utf-8') as arquivo:
+    json.dump(frutas, arquivos, indent=8, ensure_ascii=false)
